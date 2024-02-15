@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/guardian/robin.git",
       "state" : {
-        "revision" : "d7315a4f28176f885a6bde6d7892f5aff4c0e7e3",
-        "version" : "1.0.3"
+        "branch" : "visionpro-spatial-audio",
+        "revision" : "79fbb394bdec36804cea449d9c31e99a45b89f0a"
       }
     }
   ],

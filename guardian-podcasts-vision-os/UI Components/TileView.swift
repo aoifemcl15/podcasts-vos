@@ -17,11 +17,7 @@ struct TileView: View {
     @Binding private var data: [PodcastModel]
     
     @ObservedObject var robin: Robin = .shared
-    
-    let gridLayout = [
-        GridItem(.fixed(450))
-    ]
-    
+
     init(data: Binding<[PodcastModel]>) {
         self._data = data
     }
@@ -41,7 +37,7 @@ struct TileView: View {
                             
                             robin.loadSingle(source: .init(url: data[i].url!,
                                                            metadata: RobinAudioMetadata(title: data[i].title,
-                                                                                        artist: data[i].series)))
+                                                                                        artist: data[i].series)), presentation: .fullWindow)
                         }
                         .scrollTransition { content, phase in
                             content

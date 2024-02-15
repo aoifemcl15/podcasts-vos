@@ -423,7 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"guardian-podcasts-vision-os/Preview Content\"";
-				DEVELOPMENT_TEAM = F58BF86G54;
+				DEVELOPMENT_TEAM = 998P9U5NGJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -452,7 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"guardian-podcasts-vision-os/Preview Content\"";
-				DEVELOPMENT_TEAM = F58BF86G54;
+				DEVELOPMENT_TEAM = 998P9U5NGJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -501,8 +501,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/guardian/robin.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
+				branch = "visionpro-spatial-audio";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
